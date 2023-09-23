@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# CalTrack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **Contributors:** Isaac Asher
+- [**Backend**]()
+- [**Deployed Site**]()
+- **Languages, Database, and Frameworks Used:** React, Python, Django, Node, postgreSQL, HTML, SASS
+- [**Jira Board**](https://id.atlassian.com/invite/p/jira-software?id=gCZCOldCQ92yWtjJuLRvxA)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+CalTrack takes the guesswork out of tracking your daily caloric intake!  Through a form, users can add every meal that they have throughout their day. By setting themselves a goal, users can also utilize CalTrack to reach that nutritional goal with ease.
 
-### `npm start`
+Whether you're interested in losing weight, taking a shot at a new diet routine, or simply want to keep your healthy lifestyle HEALTHY, CalTrack is your go-to app for keeping your nutritional health in check.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Join the CalTrack community today and make every day a nutritionally healthy one, Happy Tracking!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Main Features 🍲
+Add Your meals throughout each day to keep track of your daily intake
 
-### `npm test`
+- Daily Tracking: An intuitive tracking system that allows you to track you calories day by day, as opposed to making a post for each day seperately. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- User Profiles: Users Will have access to their profile page, allowing them to update their weight, age, Goals, etc.
 
-### `npm run build`
+## Mock UP of UI
+***Auth Page***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Signup/Login](https://i.imgur.com/qCPr1yS.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+***Dashboard Page***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Index/Show](https://i.imgur.com/TxHmwbp.png)
 
-### `npm run eject`
+***Single Food Page***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Show page](https://i.imgur.com/CjfI8ox.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***User Profile Page***
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Show page](https://i.imgur.com/QKQ8KgK.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+***User Profile Edit/Update Page***
 
-## Learn More
+![Show page](https://i.imgur.com/uUTPfss.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Endpoints
+![All Endpoints](https://i.imgur.com/Q9MSRJw.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Schemas
+![Schema Models](https://i.imgur.com/4yYD6Cs.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ERD (ENTITY RELATIONSHIP DIAGRAM)
+``` mermaid
+erDiagram
+    
+    USER ||--o{ FOOD : "LOGS IN"
+    USER ||--o{ USER_PROFILE : "First Time Login"
+    USER_PROFILE ||--o{ FOOD : "Redirected to Dashboard"
+    FOOD ||--o{ USER : "LOGS OUT"
+    
+    USER_PROFILE {
+        int id
+        string username
+        string password
+        string name
+        int weight
+        string userImg
+    }
+    
+    USER {
+        int id
+        string username
+        string password
+    }
+    
+    FOOD {
+        int id
+        string name
+        int calories
+        int fat
+        int protein
+        int carbs
+        int sugar
+    }
+```
