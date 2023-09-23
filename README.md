@@ -3,7 +3,6 @@
 - **Contributors:** Isaac Asher
 - [**Backend**]()
 - [**Deployed Site**]()
-- **Languages, Database, and Frameworks Used:** React, Python, Django, Node, postgreSQL, HTML, SASS
 - [**Jira Board**](https://id.atlassian.com/invite/p/jira-software?id=gCZCOldCQ92yWtjJuLRvxA)
 
 ## Technologies
@@ -16,7 +15,7 @@
 - HTML
 - Sass
 
-## Description
+## Description 🍲
 
 CalTrack takes the guesswork out of tracking your daily caloric intake!  Through a form, users can add every meal that they have throughout their day. By setting themselves a goal, users can also utilize CalTrack to reach that nutritional goal with ease.
 
@@ -31,7 +30,7 @@ Add Your meals throughout each day to keep track of your daily intake
 
 - User Profiles: Users Will have access to their profile page, allowing them to update their weight, age, Goals, etc.
 
-## Mock UP of UI
+## Mock UP of UI 🍲
 ***Auth Page***
 
 ![Signup/Login](https://i.imgur.com/qCPr1yS.png)
@@ -52,14 +51,14 @@ Add Your meals throughout each day to keep track of your daily intake
 
 ![Show page](https://i.imgur.com/uUTPfss.png)
 
-## Endpoints
+## Endpoints 🍲
 ![All Endpoints](https://i.imgur.com/Q9MSRJw.png)
 
 
-## Schemas
+## Schemas 🍲
 ![Schema Models](https://i.imgur.com/4yYD6Cs.png)
 
-## ERD (ENTITY RELATIONSHIP DIAGRAM)
+## ERD (ENTITY RELATIONSHIP DIAGRAM) 🍲
 ``` mermaid
 erDiagram
     
