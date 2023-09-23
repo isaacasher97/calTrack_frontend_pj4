@@ -6,6 +6,16 @@
 - **Languages, Database, and Frameworks Used:** React, Python, Django, Node, postgreSQL, HTML, SASS
 - [**Jira Board**](https://id.atlassian.com/invite/p/jira-software?id=gCZCOldCQ92yWtjJuLRvxA)
 
+## Technologies
+
+- React
+- Python
+- Django
+- Node
+- postgreSQL
+- HTML
+- Sass
+
 ## Description
 
 CalTrack takes the guesswork out of tracking your daily caloric intake!  Through a form, users can add every meal that they have throughout their day. By setting themselves a goal, users can also utilize CalTrack to reach that nutritional goal with ease.
