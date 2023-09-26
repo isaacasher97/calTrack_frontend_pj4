@@ -1,5 +1,12 @@
+import Post from "../components/Post";
+import {useLoaderData} from "react-router-dom";
+
 function Index (props){
-    return <h1>Index</h1>
+    //fetc the loaderdata using useLoaderData hook
+    const foods = useLoaderData()
+
+    //map over the foods and create a post component for each food
+    return foods.map((food) => <Post key={food.id} post={food}/>)
 }
 
 export default Index;
