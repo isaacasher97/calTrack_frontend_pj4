@@ -52,7 +52,7 @@ export const updateAction = async({request, params}) => {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(updatedTodo)
+        body: JSON.stringify(updatedFood)
     })
 
     // redirect to the show page
