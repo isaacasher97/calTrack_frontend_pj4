@@ -1,0 +1,62 @@
+// Default Styling
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+html {
+	scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+.App {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    width: 100%;
+    height: 100vh;
+
+}
+
+//Header-Navbar Styling
+.nav {
+    padding: 20px;
+    background-color: aqua;
+}
+
+// pages/index.js Form Styling
+.create-form {
+    //nested header styling
+    h2 {
+        text-align: center;
+    }
+
+    //Nested form titles styling
+    .form-title {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    //Nested form styling
+    Form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 25px;
+        padding: 20px;
+        background-color: aqua;
+        border-radius: 10px;
+
+        input {
+            padding: 5px;
+            width: 40%;
+        }
+
+        //button styling in form
+        button {
+            padding: 7px;
+            margin: 10px auto;
+        }
+    }
+}
