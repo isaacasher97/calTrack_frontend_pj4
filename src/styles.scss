@@ -24,7 +24,7 @@ html {
 }
 
 // pages/index.js Form Styling
-.create-form {
+.create-form, .update-form {
     //nested header styling
     h2 {
         text-align: center;
@@ -41,16 +41,17 @@ html {
     Form {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        align-items: center;
         flex-direction: column;
-        margin: 25px;
+        margin: 25px auto;
         padding: 20px;
         background-color: aqua;
+        width: 60%;
         border-radius: 10px;
 
         input {
             padding: 5px;
-            width: 40%;
+            width: 100%;
         }
 
         //button styling in form
