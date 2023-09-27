@@ -1,4 +1,18 @@
 import { Outlet } from 'react-router-dom';
+import './App.css';
+import Header from './components/Header';
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Outlet/>
+    </div>
+  );
+}
+
+export default App;
+import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import "../src/styles.scss";
 import React from 'react';
