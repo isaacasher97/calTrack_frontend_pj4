@@ -43,7 +43,7 @@ function Show (props){
             <Link to="/"><button className="btn btn-warning">Go Back</button></Link>
                 </Form>
                 <Form method="post" action={`/delete/${post.id}`}>
-                    <button className="btn btn-danger">Delete Todo</button>
+                    <button className="btn btn-danger">Delete Meal</button>
                 </Form>
             </div>
         </div>
