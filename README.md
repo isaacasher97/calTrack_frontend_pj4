@@ -4,18 +4,24 @@
 - [**Backend Source Code**](https://github.com/isaacasher97/calTrack_backend_pj4)
 - [**Frontend Source Code**](https://github.com/isaacasher97/calTrack_frontend_pj4)
 - [**Deployed Backend Site**](https://caltrack-backend-2eww.onrender.com)
-- [**Deployed Frontend Site**]()
+- [**Deployed Frontend Site**](https://cal-track-frontend-pj4.vercel.app/)
 - [**Jira Board**](https://id.atlassian.com/invite/p/jira-software?id=gCZCOldCQ92yWtjJuLRvxA)
 
 ## Technologies
+<img src="https://i.imgur.com/BP04moS.jpg" width="50" height="50">
+<img src="https://i.imgur.com/x10Mqt8.png" width="50" height="50">
+<img src="https://i.imgur.com/OD3swvl.png" width="50" height="50">
+<img src="https://i.imgur.com/xmboanh.png" width="50" height="50"><br/>
+<img src="https://i.imgur.com/FJ5g1Ij.png" width="50" height="50">
+<img src="https://i.imgur.com/zIdAEMI.png" width="50" height="50" />
+<img src="https://i.imgur.com/3RQuVCs.png" width="50" height="50" />
+<img src="https://i.imgur.com/P6X3sYc.png" width="50" height="50" />
 
-- React
-- Python
-- Django
-- Node
-- postgreSQL
-- HTML
-- Sass
+## How To Get Started
+- After Cloning Repository:
+1. npm 👁️
+2. npm start 🚀
+3. App is running 🏃
 
 ## Description 🍲
 
