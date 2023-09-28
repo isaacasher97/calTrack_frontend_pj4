@@ -8,8 +8,8 @@ function Index (props){
     //map over the foods and create a post component for each food
     return <>
     <div className="create-form">
-        <h2>Welcome To CalTrack!</h2>
         <Form method="post" action="/create">
+        <h2>Welcome To CalTrack!</h2>
         <div className="form-title">
                 <h3>Name</h3>
                 <input type="text" name="name" placeholder="Enter Name Of Meal" />
@@ -35,11 +35,14 @@ function Index (props){
                 <input type="number" name="sugar" placeholder="Amount Of Sugar(g)" />
             </div>
             <div className="form-bttn">
-            <button>Add New Meal</button>
+            <button className="btn btn-primary">Add New Meal</button>
             </div>
         </Form>
     </div>
+    <h2 className="meals-eaten">Meals Eaten <mark>Today</mark></h2>
+    <div className="foods-map">
     {foods.map((food) => <Post key={food.id} post={food}/>)}
+    </div>
     </>
 }
 

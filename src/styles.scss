@@ -9,25 +9,31 @@ html {
     scroll-padding-top: 75px;
 }
 
-.App {
+body {
     background-color: #7f5a83;
     background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     width: 100%;
-    height: 100vh;
-
+    height: 100%;
 }
 
-//Header-Navbar Styling
-.nav {
-    padding: 20px;
-    background-color: aqua;
-}
 
 // pages/index.js Form Styling
+
+.meals-eaten {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 30px auto;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+}
+
 .create-form, .update-form {
     //nested header styling
     h2 {
         text-align: center;
+        color: aliceblue;
     }
 
     //Nested form titles styling
@@ -43,9 +49,10 @@ html {
         flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
-        margin: 25px auto;
+        margin: 100px auto;
         padding: 20px;
-        background-color: aqua;
+        background-color: #eec0c6;
+        background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
         width: 60%;
         border-radius: 10px;
 
@@ -61,3 +68,110 @@ html {
         }
     }
 }
+
+
+
+//Header-Navbar Styling
+#navBar {
+    padding: 0px;
+    background-color: grey;
+}
+
+.container-fluid, .offcanvas-header {
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+.navbar-brand, .offcanvas-header {
+    img {
+        max-width: 100px;
+        max-height: 100%;
+    }
+}
+
+.offcanvas-body {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+}
+
+
+//////////SHOW PAGE/////////////
+
+//Food Info at top of show page styling
+
+.food-info {
+    margin-top: 100px
+}
+
+
+
+////Post Component Styling////////
+
+.foods-map {
+    width: 90%;
+    height: 50%;
+    padding: 20px;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.post-compnt-show {
+   width: 80%;
+   max-height: 100%;
+   padding: 30px;
+   margin: 100px auto;
+   height: 100%;
+   border-radius: 20px;
+   background-color: #000000;
+   background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+
+   h1, h2, h3 {
+    text-transform: capitalize;
+    text-align: center;
+   }
+
+   h2, h3 {
+    color: black;
+   }
+
+   h1 {
+    color: orange;
+    font-weight: 700;
+    text-decoration: underline;
+   }
+}
+
+   .post-compnt {
+    width: 80%;
+    max-height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 7px auto;
+    height: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+
+
+    //Nested anchor tag styling
+    a {
+        color: orange;
+        text-decoration: none;
+    }
+
+    a :hover {
+        text-decoration: underline;
+    }
+   // Nested Header Styling
+   h1, h2 {
+    text-transform: capitalize
+   }
+}
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
