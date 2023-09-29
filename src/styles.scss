@@ -201,6 +201,38 @@ body {
       margin-top: 5%;
   }
 
+  // Various Diet Plans Card Styling
+  #various-diet-card-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
+    //Nested Heading Styling
+    #var-diet-plns-header {
+        text-align: center;
+        font-weight: 500;
+    }
+
+    //Nested Link Styling
+    a {
+        color: orange;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .diet-link-icon {
+        display: flex;
+        gap: 10px;
+        color: red;
+    }
+
+    p {
+        color: #000000;
+        font-size: 1.2em;
+    }
+  }
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
