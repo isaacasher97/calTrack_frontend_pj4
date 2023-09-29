@@ -8,6 +8,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import "../src/styles.scss";
+import DietLinks from './components/DietLinks';
+import Footer from './components/Footer';
 
 axios.defaults.xsrfCookieName = 'csrftoken';
 axios.defaults.xsrfHeaderName = 'X-CSRFToken';
@@ -97,6 +99,8 @@ function App() {
     <div className="App">
       <Header />
       <Outlet/>
+      <DietLinks/>
+      <Footer/>
     </div>
   )
   } else {
