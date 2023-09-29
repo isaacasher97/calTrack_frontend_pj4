@@ -99,7 +99,7 @@ function App() {
       <Outlet/>
     </div>
   )
-  } 
+  } else {
   return (
     <div>
     <Navbar bg="dark" variant="dark">
@@ -160,6 +160,7 @@ function App() {
     }
     </div>
   );
+  }
 }
 
 export default App;

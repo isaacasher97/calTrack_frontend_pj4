@@ -10,7 +10,7 @@ function Header(props) {
     </button>
     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
-        <a href="/"><img src="https://i.imgur.com/GCGJ3ds.png" alt="logoImg" className="offcanvas-title" id="offcanvasNavbarLabel"></img></a>
+        <Link to="/" href="/"><img src="https://i.imgur.com/GCGJ3ds.png" alt="logoImg" className="offcanvas-title" id="offcanvasNavbarLabel"></img></Link>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
