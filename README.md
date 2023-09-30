@@ -39,6 +39,11 @@ Add Your meals throughout each day to keep track of your daily intake
 - User Profiles: Users Will have access to their profile page, allowing them to update their weight, age, Goals, etc.
 
 ## Mock UP of UI 🍲
+
+***Deployed Site***
+
+![Deployed img](https://i.imgur.com/uNS3mJt.jpg)
+
 ***Auth Page***
 
 ![Signup/Login](https://i.imgur.com/qCPr1yS.png)
